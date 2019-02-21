@@ -1,0 +1,18 @@
+# IntelliJ project files
+.idea
+
+# Visual Studio Code editor files
+.vscode
+
+# Dependency directories
+node_modules/
+
+# Folder build output
+dist
+
+# Logs
+logs
+npm-debug.log
+
+# Misc
+.DS_Store

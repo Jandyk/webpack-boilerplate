@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack Boilerplate</title>
+    <!-- Open Graph protocol -->
+    <meta property="og:title" content="Webpack Boilerplate" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+    <meta property="og:description" content="Sean Connery found fame and fortune as the.." />
+    <meta property="og:site_name" content="Webpack Boilerplate" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__img">
+            <img src="<%= require('./src/assets/img/rocket.png') %>" alt="rocket">
+        </div>
+        <div class="header__title">
+            <h1>Hello, I am Webpack Boilerplate</h1>
+        </div>
+    </header>
+</body>
+</html>
